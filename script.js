@@ -19,5 +19,4 @@ function handleLinkClick(event){
         div.style.display = 'none'
     }
 
-    console.log(div.style.display)
 }
