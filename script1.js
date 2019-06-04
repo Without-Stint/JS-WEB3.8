@@ -14,5 +14,9 @@ document.getElementById('wrapper').addEventListener('click', function(event){
     if (tagName === 'p'){
         event.target.style.color = 'blue';
     }
+
+    if (event.target.classList.contains('color')){
+        event.target.style.color = "red"
+    }
 })
 
