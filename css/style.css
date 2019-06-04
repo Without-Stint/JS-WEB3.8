@@ -1,0 +1,15 @@
+.box1 {
+   display: flex;
+   width: 300px;
+   height: 300px;
+   align-items: center;
+   justify-content: center;
+   background: red;
+
+}
+
+.box2 {
+    width: 150px;
+    height: 150px;
+    background: blue;
+}
