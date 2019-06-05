@@ -1,7 +1,16 @@
-let num = 2.4
+let person = {
+    name: 'Max',
+    age: 26,
+    car: {
+        model: 'Ford'
+    },
+    job: 'Frontend',
+    friends: ['Elena', 'Igor']
+}
 
 
-console.log(Math.floor(num))
+let str = (JSON.stringify(person))
 
-console.log(Math.ceil(num))
+console.log(str)
 
+console.log(JSON.parse(str))
